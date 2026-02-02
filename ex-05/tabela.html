@@ -81,5 +81,73 @@
         
     </table>
 </center>
+
+<h1>responda</h1>
+
+ <fieldset>
+    <form method="post" action="processar.php"></form>
+<legend>Dados do seu time <Time></Time></legend>
+
+    <label for="nome">qual seu time?</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <br><br>
+
+    <label for="email">Seu time tem mundial?</label>
+    <input type="email" id="email" name="email" required>
+
+    <br><br>
+
+    <label for="idade">Quantos titulos brasileiros?</label>
+    <input type="number" id="idade" name="idade" min="18" max="120">
+
+    <br><br>
+
+    <label for="senha">Deixe seu comentario</label>
+    <input type="password" id="senha" name="senha" required>
+
+</fieldset>
+
+<br><br>
+
+<fieldset>
+    <legend>estou feliz</legend>
+    <label for="Termos">
+        <input type="checkbox" id="termos" name="termos" required>
+        sou feliz.
+    </label>
+    <label for="Termos">
+        <input type="checkbox" id="termos" name="termos" required>
+        não sou feliz.
+    </label>
+    <label for="Termos">
+        <input type="checkbox" id="termos" name="termos" required>
+        sou muito alegre.
+    </label>
+</fieldset>
+    
+<br><br>
+
+<fieldset>
+    <legend>pagamento</legend>
+    <label for="Termos">
+        <input type="checkbox" id="termos" name="termos" required>
+        crédito.
+    </label>
+    <label for="Termos">
+        <input type="checkbox" id="termos" name="termos" required>
+        vale bombom.
+    </label>
+    <label for="Termos">
+        <input type="checkbox" id="termos" name="termos" required>
+        débito.
+    </label>
+</fieldset>
+    
+<br><br>
+
+<button type="submit">cadastrar</button>
+<button type="reset">limpar</button>
+
 </body>
 </html>
